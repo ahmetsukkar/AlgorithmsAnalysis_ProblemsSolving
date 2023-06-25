@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumSpanningTree(Greedy)
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraversalAlgorithm", "TraversalAlgorithm\TraversalAlgorithm.csproj", "{E781E3D2-A868-44B9-BA3D-132EB15F6844}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{EF4AF17D-2719-447B-A633-FB521285C06D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList_Implementation", "LinkedList_Implementation\LinkedList_Implementation.csproj", "{A82FF907-9253-47A5-8593-EA1B93C37674}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +93,10 @@ Global
 		{E781E3D2-A868-44B9-BA3D-132EB15F6844}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E781E3D2-A868-44B9-BA3D-132EB15F6844}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E781E3D2-A868-44B9-BA3D-132EB15F6844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A82FF907-9253-47A5-8593-EA1B93C37674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A82FF907-9253-47A5-8593-EA1B93C37674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A82FF907-9253-47A5-8593-EA1B93C37674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A82FF907-9253-47A5-8593-EA1B93C37674}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +114,7 @@ Global
 		{820C7D43-88CE-48CE-8AB2-5031EB65AB8E} = {C99480DB-BCA8-4F5A-9779-F0541AA193BC}
 		{7A00D88C-AAC4-4584-8EBA-D89041259C4B} = {1EFDE069-D517-445D-8468-00D84FC8C374}
 		{E781E3D2-A868-44B9-BA3D-132EB15F6844} = {1EFDE069-D517-445D-8468-00D84FC8C374}
+		{A82FF907-9253-47A5-8593-EA1B93C37674} = {EF4AF17D-2719-447B-A633-FB521285C06D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D31AFB9F-210F-4A67-8352-191D944537B0}
