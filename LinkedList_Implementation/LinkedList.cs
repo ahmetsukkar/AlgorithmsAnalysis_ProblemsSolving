@@ -155,6 +155,39 @@ namespace LinkedList_Implementation
 			Length--; // Decrement length when a node is deleted
 		}
 
+		#region "Stack"
+
+		public void InsertFirst(T _data)
+		{
+			if (!CanInsert(_data)) return;
+
+			LinkedListNode<T> newNode = new LinkedListNode<T>(_data);
+
+			if (this.Head == null)
+			{
+				this.Head = newNode;
+				this.Tail = newNode;
+			}
+			else
+			{
+				newNode.Next = this.Head;
+				this.Head = newNode;
+			}
+
+			Length++; // Increment length when a node is inserted
+		}
+
+		public void DeleteHead()
+		{
+			if (this.Head == null) return;
+
+			this.Head = this.Head.Next;
+
+			Length--; // Decrement length when a node is deleted
+		}
+
+		#endregion
+
 		public void PrintList()
 		{
 			for (LinkedListIterator<T> itr = this.Begin(); itr.Current() != null; itr.Next())

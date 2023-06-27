@@ -11,6 +11,7 @@ namespace LinkedList_Implementation
 		static void Main(string[] args)
 		{
 			#region "LinkedList Example"
+
 			Console.WriteLine("LinkedList");
 
 			LinkedList<int> linkedList = new LinkedList<int>();
@@ -49,6 +50,7 @@ namespace LinkedList_Implementation
 			Console.WriteLine();
 
 			#region "DoublyLinkedList Example"
+
 			Console.WriteLine("DoublyLinkedList");
 
 			DoublyLinkedList<string> doublyLinkedList = new DoublyLinkedList<string>(true);
@@ -82,6 +84,36 @@ namespace LinkedList_Implementation
 
 			#endregion
 
+			Console.WriteLine();
+
+			#region "Stack_LinkedListBased"
+
+			Console.WriteLine("Stack_LinkedListBased");
+
+			Stack_LinkedListBased<int> stack = new Stack_LinkedListBased<int>();
+
+			Console.WriteLine("isEmpty: " + (stack.IsEmpty() ? "YES" : "NO"));
+
+			stack.Push(12);
+			stack.Push(23);
+			stack.Push(34);
+
+			Console.WriteLine("isEmpty: " + (stack.IsEmpty() ? "YES" : "NO"));
+			Console.WriteLine("Size: " +  stack.Size());
+
+			stack.Print();
+
+
+			Console.WriteLine("Pop: " + stack.Pop());
+			Console.WriteLine("Size: " + stack.Size());
+			stack.Print();
+
+			Console.WriteLine("Peek: " + stack.Peek());
+			Console.WriteLine("Size: " + stack.Size());
+			stack.Print();
+
+
+			#endregion
 
 			Console.ReadLine();
 		}
