@@ -115,6 +115,31 @@ namespace LinkedList_Implementation
 
 			#endregion
 
+			#region "Queue_LinkedListBased"
+
+			Console.WriteLine("###_Queue_LinkedListBased_###");
+
+			Queue_LinkedListBased<int> queue = new Queue_LinkedListBased<int>();
+
+			queue.Enqueue(8);
+			queue.Enqueue(16);
+			queue.Enqueue(32);
+			queue.Enqueue(64);
+
+			queue.Print();
+			Console.WriteLine("+++++++++++++++++++++++");
+
+			while (!queue.IsEmpty())
+			{
+				Console.WriteLine("Peek: " + queue.Peek());
+				Console.WriteLine("Dequeue: " + queue.Dequeue());
+				Console.WriteLine("Size: " + queue.Size());
+				queue.Print();
+				Console.WriteLine("______________________________");
+			}
+
+			#endregion
+
 			Console.ReadLine();
 		}
 	}
