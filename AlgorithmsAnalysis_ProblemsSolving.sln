@@ -3,41 +3,43 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionSort\InsertionSort.csproj", "{4806CFDB-4E4F-4FE3-85A7-9955994B4DEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertionSort", "InsertionSort\InsertionSort.csproj", "{4806CFDB-4E4F-4FE3-85A7-9955994B4DEE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{BEB2EBD0-CA3D-4383-82A8-167D58B8DF9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\MergeSort.csproj", "{67C4810F-204A-46F5-91A4-0B1949DFFEA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeSort", "MergeSort\MergeSort.csproj", "{67C4810F-204A-46F5-91A4-0B1949DFFEA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{718C6E12-95CC-42D1-BCFA-B554FF59631A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{718C6E12-95CC-42D1-BCFA-B554FF59631A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SegregatePositiveAndNegativeNumbers", "SegregatePositiveAndNegativeNumbers\SegregatePositiveAndNegativeNumbers.csproj", "{3C953733-9D82-4CFF-A293-10A9686206DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SegregatePositiveAndNegativeNumbers", "SegregatePositiveAndNegativeNumbers\SegregatePositiveAndNegativeNumbers.csproj", "{3C953733-9D82-4CFF-A293-10A9686206DF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GreedyTechniqueAlgorithms", "GreedyTechniqueAlgorithms", "{BDB03875-4F2C-4524-A10A-FAF3BE18E358}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivitySelectionProblem", "ActivitySelectionProblem\ActivitySelectionProblem.csproj", "{F0CE7ECF-48C6-4654-9638-403FCE26EA1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActivitySelectionProblem", "ActivitySelectionProblem\ActivitySelectionProblem.csproj", "{F0CE7ECF-48C6-4654-9638-403FCE26EA1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HuffmanCoding", "HuffmanCoding\HuffmanCoding.csproj", "{97EE787F-E00A-4C5D-A133-FEFAA65D0073}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HuffmanCoding", "HuffmanCoding\HuffmanCoding.csproj", "{97EE787F-E00A-4C5D-A133-FEFAA65D0073}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractionalKnapsackProblem", "FractionalKnapsackProblem\FractionalKnapsackProblem.csproj", "{F1E19E8E-CFE2-44F7-90F1-6AB85DC1E6D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FractionalKnapsackProblem", "FractionalKnapsackProblem\FractionalKnapsackProblem.csproj", "{F1E19E8E-CFE2-44F7-90F1-6AB85DC1E6D4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DaynamicProgramming", "DaynamicProgramming", "{C99480DB-BCA8-4F5A-9779-F0541AA193BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StagecoachProblem", "StagecoachProblem\StagecoachProblem.csproj", "{1BBC127E-0268-4B2D-B0DC-D61A4E8453DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StagecoachProblem", "StagecoachProblem\StagecoachProblem.csproj", "{1BBC127E-0268-4B2D-B0DC-D61A4E8453DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestCommonSubsequence", "LongestCommonSubsequence\LongestCommonSubsequence.csproj", "{B75DD590-DC08-48F9-8D49-831B2B01617E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestCommonSubsequence", "LongestCommonSubsequence\LongestCommonSubsequence.csproj", "{B75DD590-DC08-48F9-8D49-831B2B01617E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnapsackProblem_0-1", "KnapsackProblem_0-1\KnapsackProblem_0-1.csproj", "{820C7D43-88CE-48CE-8AB2-5031EB65AB8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KnapsackProblem_0-1", "KnapsackProblem_0-1\KnapsackProblem_0-1.csproj", "{820C7D43-88CE-48CE-8AB2-5031EB65AB8E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Graph", "Graph", "{1EFDE069-D517-445D-8468-00D84FC8C374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimumSpanningTree(Greedy)", "MinimumSpanningTree(Greedy)\MinimumSpanningTree(Greedy).csproj", "{7A00D88C-AAC4-4584-8EBA-D89041259C4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinimumSpanningTree(Greedy)", "MinimumSpanningTree(Greedy)\MinimumSpanningTree(Greedy).csproj", "{7A00D88C-AAC4-4584-8EBA-D89041259C4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraversalAlgorithm", "TraversalAlgorithm\TraversalAlgorithm.csproj", "{E781E3D2-A868-44B9-BA3D-132EB15F6844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TraversalAlgorithm", "TraversalAlgorithm\TraversalAlgorithm.csproj", "{E781E3D2-A868-44B9-BA3D-132EB15F6844}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStructures", "DataStructures", "{EF4AF17D-2719-447B-A633-FB521285C06D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList_Implementation", "LinkedList_Implementation\LinkedList_Implementation.csproj", "{A82FF907-9253-47A5-8593-EA1B93C37674}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedList_Implementation", "LinkedList_Implementation\LinkedList_Implementation.csproj", "{A82FF907-9253-47A5-8593-EA1B93C37674}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashTable_Implementation", "HashTable_Implementation\HashTable_Implementation.csproj", "{B5E56C28-25BB-40E2-B14B-591BADF9ED54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +99,10 @@ Global
 		{A82FF907-9253-47A5-8593-EA1B93C37674}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A82FF907-9253-47A5-8593-EA1B93C37674}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A82FF907-9253-47A5-8593-EA1B93C37674}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E56C28-25BB-40E2-B14B-591BADF9ED54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E56C28-25BB-40E2-B14B-591BADF9ED54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E56C28-25BB-40E2-B14B-591BADF9ED54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E56C28-25BB-40E2-B14B-591BADF9ED54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +121,7 @@ Global
 		{7A00D88C-AAC4-4584-8EBA-D89041259C4B} = {1EFDE069-D517-445D-8468-00D84FC8C374}
 		{E781E3D2-A868-44B9-BA3D-132EB15F6844} = {1EFDE069-D517-445D-8468-00D84FC8C374}
 		{A82FF907-9253-47A5-8593-EA1B93C37674} = {EF4AF17D-2719-447B-A633-FB521285C06D}
+		{B5E56C28-25BB-40E2-B14B-591BADF9ED54} = {EF4AF17D-2719-447B-A633-FB521285C06D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D31AFB9F-210F-4A67-8352-191D944537B0}
