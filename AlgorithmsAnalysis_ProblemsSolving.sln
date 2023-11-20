@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashTable_Implementation", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProblemsSolving", "ProblemsSolving", "{82D11ECE-9F40-4C26-9B7F-F3D66F12BFD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMissingNumber", "FindMissingNumber\FindMissingNumber.csproj", "{03C474DD-8522-4BFC-893D-3C45733C7492}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindMissingNumber", "FindMissingNumber\FindMissingNumber.csproj", "{03C474DD-8522-4BFC-893D-3C45733C7492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingInterfaceExample", "UsingInterfaceExample\UsingInterfaceExample.csproj", "{C9612DBB-2D0B-404F-8C64-8A50E0E2CC7A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{03C474DD-8522-4BFC-893D-3C45733C7492}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03C474DD-8522-4BFC-893D-3C45733C7492}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03C474DD-8522-4BFC-893D-3C45733C7492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9612DBB-2D0B-404F-8C64-8A50E0E2CC7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9612DBB-2D0B-404F-8C64-8A50E0E2CC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9612DBB-2D0B-404F-8C64-8A50E0E2CC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9612DBB-2D0B-404F-8C64-8A50E0E2CC7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +137,7 @@ Global
 		{A82FF907-9253-47A5-8593-EA1B93C37674} = {EF4AF17D-2719-447B-A633-FB521285C06D}
 		{B5E56C28-25BB-40E2-B14B-591BADF9ED54} = {EF4AF17D-2719-447B-A633-FB521285C06D}
 		{03C474DD-8522-4BFC-893D-3C45733C7492} = {82D11ECE-9F40-4C26-9B7F-F3D66F12BFD1}
+		{C9612DBB-2D0B-404F-8C64-8A50E0E2CC7A} = {82D11ECE-9F40-4C26-9B7F-F3D66F12BFD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D31AFB9F-210F-4A67-8352-191D944537B0}
